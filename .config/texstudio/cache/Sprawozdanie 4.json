@@ -1,0 +1,29 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/Users/kacper/Documents/Studia/Systemy Operacyjne/Sprawozdanie 4.tex",
+    "labels": [
+    ],
+    "modified": "Sat May 3 16:25:45 2025",
+    "packages": [
+        "#listings",
+        "utf8#inputenc",
+        "#authblk",
+        "#xcolor",
+        "#polski",
+        "#enumerate",
+        "12pt,a4paper#latex-document",
+        "12pt,a4paper#tex"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Zdanie nr 7#28"
+    ],
+    "usercommands": [
+    ]
+}

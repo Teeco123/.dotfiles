@@ -1,0 +1,7 @@
+[user]
+	name = Kacper Gajko
+	email = kacper.gajko1@icloud.com
+[credential]
+	helper = osxkeychain
+[push]
+	autoSetupRemote = true

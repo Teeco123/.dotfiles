@@ -1,0 +1,47 @@
+PLUGIN_DIR="$CONFIG_DIR/plugins"
+ITEM_DIR="$CONFIG_DIR/items"
+
+bar=(
+	position=top
+	height=40
+	padding_right=10
+	padding_left=10
+	sticky=on
+	margin=0
+	y_offset=0
+	color=0xee1e1c31
+	corner_radius=0
+	shadow=true
+)
+
+default=(
+	padding_left=6
+	padding_right=6
+	icon.font="Hack Nerd Font:Bold:17.0"
+	label.font="Hack Nerd Font:Bold:14.0"
+	icon.color=0xffffffff
+	label.color=0xffffffff
+	icon.padding_left=2
+	icon.padding_right=2
+	label.padding_left=2
+	label.padding_right=2
+)
+sketchybar --default "${default[@]}" \
+	--bar "${bar[@]}"
+
+source "$ITEM_DIR/apple.sh"
+source "$ITEM_DIR/yabai.sh"
+
+sketchybar --add item clock right \
+	--set clock update_freq=10 icon= script="$PLUGIN_DIR/clock.sh" \
+	--add item volume right \
+	--set volume script="$PLUGIN_DIR/volume.sh" \
+	--subscribe volume volume_change \
+	--add item battery right \
+	--set battery update_freq=120 script="$PLUGIN_DIR/battery.sh" \
+	--subscribe battery system_woke power_source_change
+
+source "$ITEM_DIR/messages.sh"
+source "$ITEM_DIR/music.sh"
+
+sketchybar --update
