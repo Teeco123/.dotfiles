@@ -1,0 +1,14 @@
+[alias]
+	cam = "commit -a -m"
+	p = "push"
+	st = "status"
+
+[init]
+	defaultBranch = "main"
+
+[push]
+	autoSetupRemote = true
+
+[user]
+	email = "kacper.gajko1@icloud.com"
+	name = "Kacper Gajko"
