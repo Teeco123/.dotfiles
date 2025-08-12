@@ -1,4 +1,5 @@
 export PATH=$HOME/Developer/yabai-tahoe/bin:$PATH
+export EDITOR=nvim
 
 alias ls="eza -a --icons"
 
