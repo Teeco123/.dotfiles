@@ -11,6 +11,7 @@ brew "zsh-syntax-highlighting"
 brew "eza"
 brew "ripgrep"
 brew "tree-sitter-cli"
+brew "bottom"
 
 # LSP
 brew "bash-language-server"

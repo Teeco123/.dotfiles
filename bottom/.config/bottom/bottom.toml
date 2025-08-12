@@ -1,0 +1,7 @@
+[flags]
+current_usage = true
+group_processes = true
+battery = true
+temperature_type = "c"
+process_memory_as_value = true
+tree = true
