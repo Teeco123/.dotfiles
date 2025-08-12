@@ -1,3 +1,5 @@
+export PATH=$HOME/Developer/yabai-tahoe/bin:$PATH
+
 alias ls="eza -a --icons"
 
             git_branch_name() {
