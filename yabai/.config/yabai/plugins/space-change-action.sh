@@ -7,16 +7,23 @@ case $current_space in
 1)
 	if ! pgrep -x "Safari" >/dev/null; then
 		open -a "Safari"
+		echo "Opening Safari"
 	fi
 	;;
 2)
 	if ! pgrep -f "wezterm" >/dev/null; then
 		open -a "WezTerm"
+		echo "Opening WezTerm"
 	fi
 	;;
 3)
 	if ! pgrep -x "Messages" >/dev/null; then
 		open -a "Messages"
+		echo "Opening Messages"
 	fi
+	;;
+4)
+	open -a "Messages"
+	echo "No app to open"
 	;;
 esac
