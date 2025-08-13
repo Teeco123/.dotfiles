@@ -12,6 +12,7 @@ brew "eza"
 brew "ripgrep"
 brew "tree-sitter-cli"
 brew "bottom"
+brew "cbonsai"
 
 # LSP
 brew "bash-language-server"
@@ -27,3 +28,6 @@ brew "llvm"
 
 # TOOLS
 brew "cmake"
+
+# CASK
+cask "wezterm"
