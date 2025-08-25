@@ -37,7 +37,7 @@ yabai -m rule --add app="^FaceTime$" manage=off
 yabai -m rule --add app="^FaceTime$" opacity=1.0
 
 yabai -m rule --add app=".*" space=^4
-yabai -m rule --add app="^Safari$" space=^1
+yabai -m rule --add app="^Zen$" space=^1
 yabai -m rule --add app="^WezTerm$" space=^2
 yabai -m rule --add app="^wezterm-gui$" space=^2
 yabai -m rule --add app="^Messages$" space=^3

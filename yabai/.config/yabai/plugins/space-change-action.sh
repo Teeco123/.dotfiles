@@ -5,9 +5,9 @@ current_space=$(yabai -m query --spaces --space | jq '.index')
 
 case $current_space in
 1)
-	if ! pgrep -x "Safari" >/dev/null; then
-		open -a "Safari"
-		echo "Opening Safari"
+	if ! pgrep -x "Zen" >/dev/null; then
+		open -a "Zen"
+		echo "Opening Zen"
 	fi
 	;;
 2)
